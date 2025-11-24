@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gilang Pratama | Resume - UNIKMA</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta name="description" content="Resume personal - Mahasiswa UNIKMA. Student Developer | UI/UX Enthusiast." />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header id="navbar" class="nav--sticky">
+      <div class="container nav__inner">
+        <a href="#hero" class="brand" aria-label="Home"> <span class="brand__accent">Gilang</span><span class="brand__plain"> Pratama</span> </a>
+
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav__actions">
+          <a class="btn btn--outline" href="#projects">View Projects</a>
+          <!-- <a class="btn btn--primary" href="assets/CV.pdf" download>Download CV</a> -->
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="hero" class="section hero reveal">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="eyebrow">Hello, I am</p>
+            <h1 class="hero__title"><span class="title__accent">Gilang Pratama</span></h1>
+            <p class="hero__subtitle">Student Developer | UI/UX Enthusiast — Universitas Komputama</p>
+
+            <div class="hero__ctas">
+              <a href="#contact" class="btn btn--primary">Contact Me</a>
+              <a href="#projects" class="btn btn--ghost">View Projects</a>
+            </div>
+
+            <ul class="hero__badges">
+              <li class="badge">Frontend</li>
+              <li class="badge">UI/UX</li>
+              <li class="badge">Research</li>
+            </ul>
+          </div>
+
+          <div class="hero__visual">
+            <div class="photo--wrap" id="hero-photo-wrap">
+              <img id="hero-photo" src="aseets/gilangpratama.png" alt="Foto Fitrira Rahma" class="photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">About Me</span></h2>
+          <div class="about__grid">
+            <div class="about__text">
+              <p>
+                Saya mahasiswa aktif di Universitas Komputama Majenang yang bersemangat mengembangkan aplikasi web dengan fokus pada pengalaman pengguna dan antarmuka yang estetis. Saya mengutamakan kolaborasi, pembelajaran berkelanjutan,
+                dan penerapan praktik terbaik dalam setiap proyek.
+              </p>
+              <p>Tujuan karier saya: menjadi Fullstack Developer yang menghasilkan produk berkualitas tinggi dengan desain yang intuitif.</p>
+              <a href="#projects" class="btn btn--outline">See my work</a>
+            </div>
+
+            <div class="about__stats">
+              <div class="stat">
+                <h3>4+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3>2</h3>
+                <p>Internships</p>
+              </div>
+              <!-- <div class="stat">
+                <h3>Organized</h3>
+                <p>Team Lead Experiences</p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">Skills</span></h2>
+
+          <div class="skills__grid">
+            <div class="skill__block">
+              <h3>Hard Skills</h3>
+
+              <ul class="skill__list">
+                <li>
+                  <div class="skill__meta">
+                    <span>HTML &amp; Semantic Markup</span>
+                    <span class="skill__value">90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress__bar" data-progress="90"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="skill__meta">
+                    <span>CSS / SCSS / Responsive</span>
+                    <span class="skill__value">83%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress__bar" data-progress="88"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="skill__meta">
+                    <span>JavaScript (Vanilla)</span>
+                    <span class="skill__value">50%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress__bar" data-progress="82"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="skill__meta">
+                    <span>Frameworks (React/Vue)</span>
+                    <span class="skill__value">40%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress__bar" data-progress="72"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill__block">
+              <h3>Soft Skills</h3>
+              <div class="soft__grid">
+                <div class="soft__card">Leadership</div>
+                <div class="soft__card">Problem Solving</div>
+                <div class="soft__card">Time Management</div>
+                <div class="soft__card">Communication</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">Projects</span></h2>
+
+          <div class="projects__filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="uiux">UI/UX</button>
+            <button class="filter-btn" data-filter="react">React</button>
+          </div>
+
+          <div id="projects-grid" class="projects__grid">
+            <!-- Project cards injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+    <div class="container-education">
+      <section id="education" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">Education</span></h2>
+
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__meta">
+                <h3>Universitas Komputama Majenang</h3>
+                <p>Sistem Informasi — Proyeksi Lulus 2026</p>
+              </div>
+              <div class="timeline__date">2023 — Present</div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__meta">
+                <h3>SMA 01 Serang Baru</h3>
+                <p>Ilmu Pengetahuan Sosial — Lulus 2023</p>
+              </div>
+              <div class="timeline__date">2020 — 2023</div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__meta">
+                <h3>SMP Al - Kamiliyyah</h3>
+                <p>Ilmu Terkait — Lulus 2020</p>
+              </div>
+              <div class="timeline__date">2017 — 2020</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+      <!-- EXPERIENCE (opsional) -->
+      <!-- <section id="experience" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">Experience</span></h2>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__meta">
+                <h3>Internship - Web Dev</h3>
+                <p>Perusahaan X — Frontend Intern</p>
+              </div>
+              <div class="timeline__date">2024</div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- CONTACT -->
+    <div class="container-education">
+      <section id="contact" class="section reveal">
+        <div class="container">
+          <h2 class="section__title"><span class="accent">Contact</span></h2>
+
+          <div class="contact__wrap">
+            <form id="contact-form" class="contact__form" novalidate>
+              <div class="form__row">
+                <label for="name">Nama</label>
+                <input id="name" name="name" type="text" placeholder="Nama Anda" required />
+              </div>
+
+              <div class="form__row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="nama@domain.com" required />
+              </div>
+
+              <div class="form__row">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan..." required></textarea>
+              </div>
+
+              <div class="form__row form__actions">
+                <button type="submit" class="btn btn--primary">Kirim Pesan</button>
+                <button type="reset" class="btn btn--outline">Reset</button>
+              </div>
+
+              <p id="form-status" class="form__status" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact__aside">
+              <h4>Let's connect</h4>
+              <p>Anda dapat menghubungi melalui email atau sosial media berikut.</p>
+
+              <ul class="socials">
+                <li>
+                  <a href="mailto:pratama29112005@gmail.com" aria-label="Email" class="social"><span>Email</span></a>
+                </li>
+                <li>
+                  <a href="https://wa.me/6285813902664" aria-label="WhatsApp" class="social"><span>WhatsApp</span></a>
+                </li>
+                <li>
+                  <a href="https://lynk.id/floria.id/x7vn55dkyjqv/checkout" aria-label="LinkedIn" class="social"><span>LinkedIn</span></a>
+                </li>
+                <li>
+                  <a href="https://github.com/pratama29112005-ui" aria-label="GitHub" class="social"><span>GitHub</span></a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </div>
+    </main>
+
+    <!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+    <p>© 2025 Gilang Pratama — All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
